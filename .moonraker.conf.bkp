@@ -32,7 +32,7 @@ channel = dev
 refresh_interval = 168
 
 [spoolman]
-server = http://192.168.1.239:7912
+server = http://192.168.1.21:7912
 sync_rate = 5
 
 [update_manager mainsail-config]
