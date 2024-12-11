@@ -35,7 +35,7 @@ enable_auto_refresh = False
 
 [spoolman]
 server = http://192.168.1.21:7912
-sync_rate = 2
+sync_rate = 5
 
 [update_manager mainsail-config]
 type = git_repo
