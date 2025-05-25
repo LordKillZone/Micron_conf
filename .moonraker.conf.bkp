@@ -21,8 +21,11 @@ cors_domains =
 	*://app.fluidd.xyz
 
 [analysis]
-enable_estimator_updates = True
-enable_auto_analysis = True
+platform = auto
+auto_dump_default_config = false
+estimator_timeout = 600
+enable_auto_analysis = true
+enable_estimator_updates = true
 
 [octoprint_compat]
 
