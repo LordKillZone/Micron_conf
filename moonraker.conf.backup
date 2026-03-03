@@ -123,12 +123,3 @@ requirements: requirements.txt
 system_dependencies: system-dependencies.json
 primary_branch: main
 managed_services: klipper
-
-# Sonar update_manager entry
-[update_manager sonar]
-type: git_repo
-path: ~/sonar
-origin: https://github.com/mainsail-crew/sonar.git
-primary_branch: main
-managed_services: sonar
-system_dependencies: resources/system-dependencies.json
